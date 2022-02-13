@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2"
     android:orientation="vertical"
-    android:background="@drawable/gradient">
+    android:background="@drawable/g2">
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
         android:layout_marginTop="30dp"
         android:text="REGISTERATION"
         android:textAlignment="center"
-        android:textColor="#3F51B5"
+        android:textColor="#ED2617"
         android:textSize="25dp"
         android:textStyle="bold"
         android:fontFamily="serif"/>
@@ -30,6 +30,8 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:id="@+id/ed_username"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="5dp"
         android:layout_marginTop="20dp"
         android:hint="Enter Email"
         />
@@ -37,12 +39,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="5dp"
         android:id="@+id/ed_password"
         android:hint="Enter Username"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="5dp"
         android:id="@+id/ed_confirm"
         android:hint="Enter Password"/>
     <RadioGroup
@@ -67,12 +73,12 @@
         android:layout_width="173dp"
         android:layout_height="58dp"
         android:layout_gravity="center"
-        android:backgroundTint="@color/yellow"
+        android:backgroundTint="@color/blue"
         android:fontFamily="sans-serif-thin"
         android:text="REGISTER"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white"/>
 
 
     <TextView
@@ -80,7 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:fontFamily="sans-serif"
         android:textSize="16dp"
         android:text="Copyrights &#169; Happy Shop Pvt Ltd, Lahore"/>
